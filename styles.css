@@ -1,0 +1,191 @@
+
+@media only screen and (max-width: 1000px)
+{ 
+  div.footerinfo{width:80%;} 
+  
+div.navbar{display:flex;flex-direction:column;} 
+  
+  div.servicebutton {width:350px;}
+  .button {font-size:30px;}
+  
+    div.servicecontainer{display:flex;flex-direction:column; align-items: center; justify-content:center; width:100%;height:900px;}
+  
+  .services0{display:flex;flex-direction:column; align-items: center; justify-content:center; width:100%;padding-bottom:200px;padding-top:200px;}
+  
+  div.options{height:780px;width:500px;}
+  
+  .infobox{font-family: Albert sans, sans serif;font-size:1rem !important;}
+   
+    .button3 {width:100px;height:50px;border-radius:50px;color:black;margin:0 20px;filter: drop-shadow(0px 5px 5px black); font-size:1.5rem !important;margin-bottom:20px}
+  
+  .informationabout{display:flex;flex-direction:column;justify-content:center;width:100%;padding-bottom:150px;padding-top:200px;}
+  
+   div.infocontainer{display:flex;flex-direction:column;align-items: center;justify-content:center; width:100%;height:900px;padding:-50px;}
+  
+  hr{display:none;}
+   div.information{height:220px;width:500px;}
+  
+  .infobox{font-family: Albert sans, sans serif;font-size:1rem !important;}
+  
+  
+}
+
+@media only screen and (max-width: 600px)
+{  
+   .everything {   
+    flex-direction: column;
+  }
+  
+  div.hero0, div.services0, div.about0, div.contact0 {flex-direction:column;flex-wrap:wrap;}
+  
+  div.herobox, div.heroinfo, div.herobg {display:flex;flex-direction:column;border-radius:0px;width:100%;}
+  
+  div.heroinfo{overflow:auto;width:400px;}
+  
+ div.aboutbox{overflow:auto;border-radius:0px;font-size:10px;width:100%;}
+  
+  div.aboutinfo{overflow:auto;border-radius:0px;font-size:10px;width:400px;display:flex;flex-direction:column;float:left;margin-left:-200px;}
+  
+  div.about0{background:none;}
+ 
+  
+
+  .infocontainer{display:flex;flex-direction:column;justify-content:center; width:100%;}
+  
+  .hero1, .infobox{font-family: Albert sans, sans serif;font-size:1rem !important;}
+  
+ div.navbar{display:flex;flex-direction:column;} 
+   div.servicebutton {width:350px;}
+  div.number {width:200px;}
+  div.barbg{background-color:transparent;}
+  
+.button {font-size:30px;}
+textarea, input {
+    border-radius: 30px !important; height:100px;width:400px;
+}
+  
+}
+
+* {margin:0;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {margin: auto; font-family: Albert sans, sans serif; font-color:white; width:100%;}
+
+header {width:100%;background-color:#FED38A;height:130px;display:flex; position:sticky; top:0;z-index:999;}
+
+.barbg {height:110px;width:100%;background-color:white;border-radius: 200px 0 0  200px; float: right;}
+
+.navbar {height:110px;display:flex;justify-content:right; flex-direction:row; align-items:center;}
+
+.main {width:100%;}
+
+.everything {display:flex;flex-direction:column;
+}
+
+.anchor{
+   display:block;
+   height:150px;
+   margin-top:-150px;
+   visibility:hidden;
+}
+
+.hero0, .services0, .contact0, .about0, .informationabout {display: flex;
+  flex-direction: column; }
+
+.hero0 {height:700px;margin-bottom:80px;}
+.herobg{background-image: url(https://rescuemytimecleaningservice.com/wp-content/uploads/2019/11/cleaning-person.jpeg);background-size: cover;background-position:center;width:100%;}
+.services0 {height:600px;margin-bottom:80px;}
+
+.about0 {background-image: url(https://nextdaycleaning.com/wp-content/uploads/2021/01/The-Secrets-of-People-Who-Always-Have-a-Clean-House-1024x682.jpg); background-repeat:no-repeat;margin-bottom:50px;display:flex;flex-direction:row;justify-content:right;}
+
+.aboutbox {width:1200px; height:300px; background-color:#335078; border-radius: 300px 0 0 300px;}
+
+.aboutinfo{width:600px;padding-left:250px;padding-top:50px;}
+
+.contact0 {height:400px;}
+
+.form {background-color:#335078;text-align:center;padding-top:30px;height:675px;padding-bottom:50px;font-family: Albert sans, sans serif; color:white;}
+
+
+.herobox {width:721px; height:430px; background-color:#335078;float: left;border-radius: 0 300px 300px 0;}
+
+.heroinfo{margin:50px;width:490px;}
+
+
+.servicecontainer {width:100%; height:440px;display:flex;flex-direction: row;justify-content:center;}
+
+.infocontainer {width:100%; height:350px;display:flex; flex-direction: row;justify-content:center;}
+
+.options {width:400px;height:350px;background-color:white;border-radius: 25px;margin:20px;text-align:center;overflow:auto;filter: drop-shadow(0px 5px 5px grey);z-index:1;display:flex;flex-direction: column;justify-content:space-between;align-items:center;transition: all 0.3s ease-in-out;}
+
+
+
+.information {width:400px;height:400px;background-color:white;border-radius: 25px;margin:20px;text-align:center;overflow:auto;}
+
+.informationabout {margin-bottom:100px;height:300px;}
+
+.videocontainer {height:300px;display:flex;justify-content:center;padding-top:100px;padding-bottom:100px;}
+
+.button {width:250px;height:50px;background-color:#1951A0;border-radius:50px;color:white;margin:0 20px;filter: drop-shadow(0px 3px 3px black);transition: all 0.3s ease-in-out;}
+
+.button:hover {background-color:#B0CCFF;filter: drop-shadow(0px 5px 5px black); border: solid white 3px; width:260px;height:55px;padding-top:5px;}
+
+.button1 {width:250px;height:50px;background-color:#FFE453;border-radius:50px;color:white;margin:0 20px;filter: drop-shadow(0px 5px 5px black);}
+
+.button2 {width:450px;height:50px;background-color:#FFE453;border-radius:50px;color:black;margin:0 20px;filter: drop-shadow(0px 5px 5px black); margin-top:15px;padding:5px;font-size:3rem;}
+
+.button3 {width:250px;height:50px;font-family:signika;background-color:#B0CCFF;border-radius:50px;color:black;margin:0 20px;filter: drop-shadow(0px 5px 5px black); font-size:2.5rem;margin-bottom:20px}
+
+
+.comments {width:500px;}
+.servicebutton {height:675px;width:100%;display:flex;justify-content:center;}
+
+footer {width: 100%; height:500px; background-color:#081F3F;}
+
+.footerinfo {height:150px;width:35%;background-color:white;border-radius: 0 200px 200px 0; float: left;display:flex;flex-direction:columns;overflow:auto;}
+
+h1 {font-family: Madimi One; font-size:3.5rem; color: #010B18;text-align:center;}
+
+h2 {font-family: Signika; font-size:2.7rem;color:white;}
+
+h2.align{text-align:center;color:black;}
+
+h3 {font-family: Signika; font-size:2rem; color:white;}
+
+h4 {font-family: Signika; font-size:2rem; color:white;background-color:#335078;border-radius: 20px 20px 0 0;height:60px;margin-bottom:20px;padding-top:20px;width:100%;}
+
+h5 {font-family: Signika; font-size:2rem; color:#335078;}
+h6 {font-family: Signika; font-size:1.5rem; color:white;margin-bottom:-20px;margin-top:20px;}
+
+p {font-family:Albert Sans; color: white;}
+p.hero1{color:white;font-size:1.2rem;}
+p.infobox{color:black;font-size:1.2rem;padding:15px;}
+p.options1{padding:0 25px;color:black;}
+p.hoursaddress{padding:25px;color:black;}
+
+a {text-decoration:none; font-family:Signika;font-size:40px;text-align:center;}
+
+hr {width:5px;margin-top:20px;height:300px; background-color: #FFE453; border:none;}
+
+li{list-style-type: none; font-family:Albert Sans;font-size:1.1rem;}
+
+
+
+input{
+    border-radius: 30px !important; height:30px;width:25px;
+}
+
+textarea {
+    border-radius: 30px !important; height:100px;width:500px;
+}
+
+
+.container {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.clear{height:350px;}
